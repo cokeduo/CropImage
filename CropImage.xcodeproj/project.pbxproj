@@ -15,6 +15,11 @@
 		449F10B61C85577C000599FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449F10B41C85577C000599FA /* LaunchScreen.storyboard */; };
 		449F10C11C85577C000599FA /* CropImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10C01C85577C000599FA /* CropImageTests.m */; };
 		449F10CC1C85577D000599FA /* CropImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10CB1C85577D000599FA /* CropImageUITests.m */; };
+		449F10DB1C8557AA000599FA /* CupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10DA1C8557AA000599FA /* CupViewController.m */; };
+		449F10DE1C8557C2000599FA /* CupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10DD1C8557C2000599FA /* CupView.m */; };
+		449F10E11C8557E5000599FA /* UIImage+Rotaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10E01C8557E5000599FA /* UIImage+Rotaion.m */; };
+		449F10EA1C855BD7000599FA /* CupedResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F10E81C855BD7000599FA /* CupedResultVC.m */; };
+		449F10EB1C855BD7000599FA /* CupedResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449F10E91C855BD7000599FA /* CupedResultVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		449F10C71C85577C000599FA /* CropImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449F10CB1C85577D000599FA /* CropImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropImageUITests.m; sourceTree = "<group>"; };
 		449F10CD1C85577D000599FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449F10D91C8557AA000599FA /* CupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupViewController.h; sourceTree = "<group>"; };
+		449F10DA1C8557AA000599FA /* CupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupViewController.m; sourceTree = "<group>"; };
+		449F10DC1C8557C2000599FA /* CupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupView.h; sourceTree = "<group>"; };
+		449F10DD1C8557C2000599FA /* CupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupView.m; sourceTree = "<group>"; };
+		449F10DF1C8557E5000599FA /* UIImage+Rotaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotaion.h"; sourceTree = "<group>"; };
+		449F10E01C8557E5000599FA /* UIImage+Rotaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotaion.m"; sourceTree = "<group>"; };
+		449F10E71C855BD7000599FA /* CupedResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupedResultVC.h; sourceTree = "<group>"; };
+		449F10E81C855BD7000599FA /* CupedResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupedResultVC.m; sourceTree = "<group>"; };
+		449F10E91C855BD7000599FA /* CupedResultVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CupedResultVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +117,17 @@
 			children = (
 				449F10A91C85577C000599FA /* AppDelegate.h */,
 				449F10AA1C85577C000599FA /* AppDelegate.m */,
+				449F10DF1C8557E5000599FA /* UIImage+Rotaion.h */,
+				449F10E01C8557E5000599FA /* UIImage+Rotaion.m */,
 				449F10AC1C85577C000599FA /* ViewController.h */,
 				449F10AD1C85577C000599FA /* ViewController.m */,
+				449F10D91C8557AA000599FA /* CupViewController.h */,
+				449F10DA1C8557AA000599FA /* CupViewController.m */,
+				449F10DC1C8557C2000599FA /* CupView.h */,
+				449F10DD1C8557C2000599FA /* CupView.m */,
+				449F10E71C855BD7000599FA /* CupedResultVC.h */,
+				449F10E81C855BD7000599FA /* CupedResultVC.m */,
+				449F10E91C855BD7000599FA /* CupedResultVC.xib */,
 				449F10AF1C85577C000599FA /* Main.storyboard */,
 				449F10B21C85577C000599FA /* Assets.xcassets */,
 				449F10B41C85577C000599FA /* LaunchScreen.storyboard */,
@@ -245,6 +268,7 @@
 			files = (
 				449F10B61C85577C000599FA /* LaunchScreen.storyboard in Resources */,
 				449F10B31C85577C000599FA /* Assets.xcassets in Resources */,
+				449F10EB1C855BD7000599FA /* CupedResultVC.xib in Resources */,
 				449F10B11C85577C000599FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449F10DE1C8557C2000599FA /* CupView.m in Sources */,
 				449F10AE1C85577C000599FA /* ViewController.m in Sources */,
+				449F10DB1C8557AA000599FA /* CupViewController.m in Sources */,
+				449F10EA1C855BD7000599FA /* CupedResultVC.m in Sources */,
 				449F10AB1C85577C000599FA /* AppDelegate.m in Sources */,
+				449F10E11C8557E5000599FA /* UIImage+Rotaion.m in Sources */,
 				449F10A81C85577C000599FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,8 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CropImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibiaoqing.CropImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevelop.CropImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -423,8 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CropImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibiaoqing.CropImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevelop.CropImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +526,7 @@
 				449F10D21C85577D000599FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449F10D31C85577D000599FA /* Build configuration list for PBXNativeTarget "CropImageTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				449F10D51C85577D000599FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449F10D61C85577D000599FA /* Build configuration list for PBXNativeTarget "CropImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +544,7 @@
 				449F10D81C85577D000599FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
